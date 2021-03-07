@@ -89,7 +89,7 @@
     }
 }
 
-@media (min-width:450px) and (max-width:1150px){
+@media (min-width:450px) and (max-width:700px){
     .frame{
         align-items: center;
     }
@@ -102,6 +102,29 @@
         position: absolute;
         top: 25vh;
         left: 29vw;
+    }
+    #img2{
+        border: 1px solid white;
+        border-radius: 8px;
+        position: absolute;
+        left: 2vh;
+    }
+}
+
+@media (min-width:70px) and (max-width:1200px){
+    .frame{
+        align-items: center;
+    }
+    .quotes1{
+        display: none;
+    }
+    .quotes{
+        width: 100%;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 25vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
     }
     #img2{
         border: 1px solid white;
