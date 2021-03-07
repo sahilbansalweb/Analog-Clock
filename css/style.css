@@ -64,7 +64,7 @@
     #ccontainer{
         height: 65vw;
         width: 65vw;
-        background: url("/img/ghadi10.1.jpg") no-repeat;
+        background: url("./img/ghadi10.1.jpg") no-repeat;
         background-size: 100%;
         margin-top: 5vh;
     }
