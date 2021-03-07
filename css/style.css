@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+}
+#ccontainer{
+    border: 5px solid black;
+    border-radius: 6px;
+    /* height: 450px;
+    width: 450px; */
+    height: 45vw;
+    width: 45vw;
+    background: url("/img/ghadi0.jpg") no-repeat;
+    color: white;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour, #min, #sec{
+    position:absolute;
+    background: #4b4040;
+    /* background: black; */
+    /* background: white; */
+    border-radius: 3px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 2.5%;
+    height: 19.5%;
+    top: 30.5%;
+    left: 47.68%;
+    /* display: none; */
+    opacity: 0.9;
+
+}
+#min{
+    width: 1.5%;
+    height: 24.5%;
+    top: 25.5%;
+    left: 48.25%;
+    opacity: 0.9;
+    /* display: none; */
+
+}
+#sec{
+    width: 1%;
+    height: 27.5%;
+    top: 22.5%;
+    left: 48.5%;
+    /* display: none; */
+    opacity: 0.9;
+
+}
+
+@media (max-width:450px){
+    body{
+        background: black;
+    }
+    #hour, #min, #sec{
+        background: white;
+    }
+    #ccontainer{
+        height: 65vw;
+        width: 65vw;
+        background: url("/img/ghadi10.1.jpg") no-repeat;
+        background-size: 100%;
+        margin-top: 5vh;
+    }
+    .quotes{
+        display: none;
+    }
+    .quotes1{
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 20vh;
+        left: 3vh;
+    }
+    #img2{
+        border: 1px solid white;
+        border-radius: 8px;
+        position: absolute;
+        left: 4vw;
+    }
+    .quotes1 img{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (min-width:450px) and (max-width:1150px){
+    .frame{
+        align-items: center;
+    }
+    .quotes1{
+        display: none;
+    }
+    .quotes{
+        width: 100%;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 25vh;
+        left: 29vw;
+    }
+    #img2{
+        border: 1px solid white;
+        border-radius: 8px;
+        position: absolute;
+        left: 2vh;
+    }
+}
+
+.quotes img{
+    height: 300px;
+    width: 300px;
+}
+.quotes1 img{
+    height: 300px;
+    width: 300px;
+}
+
+.quotes #img1{
+    position: absolute;
+    top: 30vh;
+    left: 7vh;
+}
+.quotes1 #img2{
+    position: absolute;
+    top: 30vh;
+    float: right;
+    right: 7vh;
+}
