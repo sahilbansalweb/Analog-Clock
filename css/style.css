@@ -19,8 +19,8 @@
 
 #hour, #min, #sec{
     position:absolute;
-    background: #4b4040;
-    /* background: black; */
+    /* background: #4b4040;  */
+     background: black; 
     /* background: white; */
     border-radius: 3px;
     transform-origin: bottom;
