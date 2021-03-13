@@ -64,7 +64,7 @@
     #ccontainer{
         height: 65vw;
         width: 65vw;
-        background: url("https://media.istockphoto.com/vectors/clock-with-roman-numerals-vector-illustration-on-black-background-vector-id968936446?s=170x170") no-repeat;
+        background: url("https://s.clipartkey.com/mpngs/s/279-2796498_transparent-roman-numeral-clipart-clock-with-roman-numeral.png") no-repeat;
         background-size: 100%;
         margin-top: 5vh;
     }
@@ -86,6 +86,9 @@
     .quotes1 img{
         height: 250px;
         width: 250px;
+    }
+    #sec{
+        background: red;
     }
 }
 
